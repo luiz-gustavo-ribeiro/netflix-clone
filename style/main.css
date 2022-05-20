@@ -1,6 +1,6 @@
 :root{
     --vermelho:#E50914;
-    --preta:#141414;
+    --azul:#061f5f;
 }
 
 *{
@@ -11,7 +11,7 @@
 
 /*elementos base*/
 body{
-   background: var(--preta);
+   background: var(--azul);
    font-family: 'Arial', Times, serif;
    color:white;
 }
@@ -25,22 +25,32 @@ header .container{
     
 }
 
+header .container2{
+    background: var(--vermelho);
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+
 header .logo{
     margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    color: var(--branco);
+    font-family: 'American Typewritter', Times;
     font-size:40px;
 }
 
+
 header nav a{
     text-decoration:none;
-    color:#AAA;
-    margin-right: 10px;
+    color:rgb(255, 255, 255);
+    margin-left: 10px;
 }
 
 
 header nav a:hover{
-    color:#fff;
+    background:rgb(255, 255, 255);
+    color: var(--azul);
 }
 
 /*filme principal*/
